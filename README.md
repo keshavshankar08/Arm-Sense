@@ -4,7 +4,7 @@
 3. [Introduction](#introduction)
 4. [Design](#design)
 5. [Implementation](#implementation)
-6. [Testing and Results](#testingandresults)
+6. [Testing/Results](#testing/results)
 8. [Conclusion](#conclusion)
 
 
@@ -110,7 +110,7 @@ Additionally, for the electrodes themselves, I used stainless steel cubes, which
 
 ![6066D10F-8A22-4296-9DC3-8068A2197301_1_105_c](https://github.com/keshavshankar08/ECE1895-Project3/assets/86859516/d90a7395-c340-4efc-80dd-a21da83310b3)
 
-## Testing and Results
+## Testing/Results
 Testing went very smoothly, thanks to the many hours spent designing and implementing. 
 
 One small issue I had was forgetting to order the stencil for the surface mount PCBs, which led to a much longer time spent putting paste on pads and placing components. Additionally, I ordered some 0201 components, which were incredibly hard to place by hand due to the small scale. 
