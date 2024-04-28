@@ -129,6 +129,10 @@ Below is the final product:
 
 ![A334BCDD-0C69-4528-BF55-BED304AD3C52_1_105_c](https://github.com/keshavshankar08/ECE1895-Project3/assets/86859516/ab554615-c346-40f2-9bd6-1d010acfb920)
 
+<img width="491" alt="Screenshot 2024-04-27 at 1 14 21 PM" src="https://github.com/keshavshankar08/ECE1895-Project3/assets/86859516/3dcba70e-f322-4a79-acdd-723b4139179d">
+
+<img width="1552" alt="Screenshot 2024-04-27 at 1 20 56 PM" src="https://github.com/keshavshankar08/ECE1895-Project3/assets/86859516/01ca76b2-8b9d-4859-9ad9-4ef55853d1de">
+
 Finally, here are some cool pictures from working on this project:
 ![40BD5189-B68E-4BB8-8037-18A26C659DC0_1_105_c](https://github.com/keshavshankar08/ECE1895-Project3/assets/86859516/f48c3061-9b78-4ed8-bc68-3ed216a27375)
 
