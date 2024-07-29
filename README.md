@@ -28,10 +28,10 @@ Inspired by my research at the [Human Engineering Research Laboratories (HERL)](
 ### Reading EMG
 The design uses a bipolar electrode configuration to measure the potential difference between two electrodes placed on the same muscle, with a ground electrode on a non-muscular region.
 
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/electrodeConfiguration.png" alt="drawing" width="720"/>
-        <figcaption>Bipolar Electrode Configuration</figcaption>
+        <div align="center">Bipolar Electrode Configuration</div>
     </figure>
 </div>
 
@@ -44,36 +44,36 @@ The EMG signal is processed through a series of steps:
 
 These stages ensure the signal is clean and suitable for further processing.
 
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/emgModuleSchematic.png" alt="drawing" width="720"/>
-        <figcaption>EMG Module Schematic</figcaption>
+        <div align="center">EMG Module Schematic</div>
     </figure>
 </div>
 
 ### Using EMG
 The processed EMG signals are read by an esp32 microcontroller via analog pins, allowing communication with other hardware. For this project, the esp32 transmits data to a laptop via Bluetooth, which is then displayed using a Python script.
 
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/controllerModuleSchematic.png" alt="drawing" width="720"/>
-        <figcaption>Controller Module Schematic</figcaption>
+        <div align="center">Controller Module Schematic</div>
     </figure>
 </div>
 
 ### Combining Everything
 The arm band uses 6 channels of electrodes in a bipolar configuration, targeting different muscle regions around the forearm. A reference electrode is placed on a bony part of the forearm. The modules, housed in a 3D-printed PLA case, are connected using a flexible TPU band.
 
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/hardwareInsideExploded.png" alt="drawing" width="720"/>
-        <figcaption>Components Combined Exploded</figcaption>
+        <div align="center">Components Combined Exploded</div>
     </figure>
 </div>
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/hardwareInside.png" alt="drawing" width="720"/>
-        <figcaption>Components Combined</figcaption>
+        <div align="center">Components Combined</div>
     </figure>
 </div>
 
@@ -85,60 +85,60 @@ Due to the specificity of components like the voltage inverter and precision qua
 ### PCB's
 The initial PCB design had to be downsized to fit within the module housing, resulting in a reduction from seven to six measurement channels.
 
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/controllerModulePCB.png" alt="drawing" width="720"/>
-        <figcaption>Controller Module PCB</figcaption>
+        <div align="center">Controller Module PCB</div>
     </figure>
 </div>
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/emgModulePCB.png" alt="drawing" width="720"/>
-        <figcaption>EMG Module PCB</figcaption>
+        <div align="center">EMG Module PCB</div>
     </figure>
 </div>
 
 ### CAD Modeling
 Extensive CAD modeling and iterations led to a functional design. Initial cardboard prototypes were scaled up to fit PCBs, with the final design using TPU for flexibility and wire encasement.
 
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/3dModel.png" alt="drawing" width="720"/>
-        <figcaption>Enclosure 3D Model</figcaption>
+        <div align="center">Enclosure 3D Model</div>
     </figure>
 </div>
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/3dModelExploded.png" alt="drawing" width="720"/>
-        <figcaption>Enclosure 3D Model Exploded</figcaption>
+        <div align="center">Enclosure 3D Model Exploded</div>
     </figure>
 </div>
 
 ## Results
 Testing was smooth, with successful signal transmission via Bluetooth and robust physical endurance of the TPU band. Minor issues included manual application of solder paste for surface mount PCBs and programming the esp32 chip using parallel connections.
 
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/hardwareTopDown.jpeg" alt="drawing" width="720"/>
-        <figcaption>Arm-band Inside View</figcaption>
+        <div align="center">Arm-band Inside View</div>
     </figure>
 </div>
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/hardwareOutside.jpeg" alt="drawing" width="720"/>
-        <figcaption>Arm-band Side View</figcaption>
+        <div align="center">Arm-band Side View</div>
     </figure>
 </div>
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/emgReadings.png" alt="drawing" width="720"/>
-        <figcaption>EMG Readings</figcaption>
+        <div align="center">EMG Readings</div>
     </figure>
 </div>
-<div style="text-align: center;">
+<div align="center">    
     <figure>
         <img src="images/deviceBlueTooth.png" alt="drawing" width="720"/>
-        <figcaption>Device Bluetooth Connection</figcaption>
+        <div align="center">Device Bluetooth Connection</div>
     </figure>
 </div>
 
