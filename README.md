@@ -116,6 +116,7 @@ Extensive CAD modeling and iterations led to a functional design. Initial cardbo
 
 ## Results
 Click the below image to see the demo on YouTube!
+
 [![Demo](https://img.youtube.com/vi/1Ke4dVgHrZc/0.jpg)](https://www.youtube.com/watch?v=1Ke4dVgHrZc)
 
 Testing was smooth, with successful signal transmission via Bluetooth and robust physical endurance of the TPU band. Minor issues included manual application of solder paste for surface mount PCBs and programming the esp32 chip using parallel connections.
